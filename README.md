@@ -7,10 +7,10 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: João Paulo Ferreira Rodrigues
+- Matricula: 908448
+- Proposta de projeto escolhida: Getting Freak
+- Breve descrição sobre seu projeto:  O site é voltado para compartilhar treinos, dietas e dicas de saúde, além de contar com um blog pessoal para dividir experiências e atualizações do dia a dia.
 
 **Registros do trabalho**
 
@@ -43,9 +43,10 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 ```
 
 << COLOQUE A IMAGEM DA HOME AQUI >>
+![alt text](public/assets/img/home.jpg)
 
 << COLOQUE A IMAGEM DA TELA DE DETALHES AQUI >>
-
+![alt text](public/assets/img/detalhes.jpg)
 
 
 ## **Orientações Gerais**
