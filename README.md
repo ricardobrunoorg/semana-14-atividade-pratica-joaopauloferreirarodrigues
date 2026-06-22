@@ -1,99 +1,24 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/3AYGT_Y7)
-# Trabalho Prático - Semana 13
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jLbvBzzN)
 
-Nessa etapa, você irá evoluir o projeto do semestre, montando o ambiente de desenvolvimento mais completo, típico de projetos profissionais. Nesse processo, vamos utilizar um **servidor backend simulado** com o JSON Server que fornece uma APIs RESTful a partir de um arquivo JSON.
+# Trabalho Prático - Semana 14
 
-Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o cadastro e alteração de dados da entidade principal (CRUD).
+A partir dos dados que você tem no seu projeto, vamos trabalhar formas de apresentação que representem de forma clara e interativa essas informações. Você poderá usar gráficos (barra, linha, pizza), mapas, calendários ou outras formas de visualização. Seu desafio é entregar uma página Web que organize, processe e exiba os dados de forma compreensível e esteticamente agradável.
+
+Com base nos tipos de projetos escohidos, você deve propor **visualizações que estimulem a interpretação, agrupamento e exibição criativa dos dados**, trabalhando tanto a lógica quanto o design da aplicação.
+
+Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fullcalendar.io/), [Chart.js](https://www.chartjs.org/), [Mapbox](https://docs.mapbox.com/api/), para citar algumas.
 
 ## Informações do trabalho
 
-- Nome: João Paulo Ferreira Rodrigues
-- Matricula: 908448
-- Proposta de projeto escolhida: Getting Freak
-- Breve descrição sobre seu projeto:  O site é voltado para compartilhar treinos, dietas e dicas de saúde, além de contar com um blog pessoal para dividir experiências e atualizações do dia a dia.
+- Nome:
+- Matricula:
+- Proposta de projeto escolhida:
+- Breve descrição sobre seu projeto:
 
-**Registros do trabalho**
+**Print da tela com a implementação**
 
-<< DADOS DO DB.JSON (ENTIDADE PRINCIPAL E SECUNDÁRIA) >>
+<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
 
-```json
-{
-  "cidades": [
-    {
-      "id": 1,
-      "nome": "Paris",
-      "descricao": "Capital francesa famosa por arte, gastronomia e arquitetura icônica.",
-      "conteudo": "Paris oferece museus de classe mundial, boulevards arborizados e cafés charmosos. Ideal para quem busca história, cultura e experiências gastronômicas.",
-      "pais": "França",
-      "destaque": true,
-      "data": "2025-03-30",
-      "imagemPrincipal": "img/paris.jpg"
-    }
-  ],
-  "atracoes": [
-    {
-      "id": 1,
-      "cidadeId": 1,
-      "nome": "Torre Eiffel",
-      "descricao": "Monumento símbolo de Paris com mirantes panorâmicos.",
-      "imagem": "img/atracoes/torre_eiffel.jpg"
-    }
-  ]
-}
-```
+<<  COLOQUE A IMAGEM TELA 1 AQUI >>
 
-<< COLOQUE A IMAGEM DA HOME AQUI >>
-![alt text](public/assets/img/home.jpg)
-
-<< COLOQUE A IMAGEM DA TELA DE DETALHES AQUI >>
-![alt text](public/assets/img/detalhes.jpg)
-
-
-## **Orientações Gerais**
-
-Nesse projeto você vai encontrar a seguinte estrutura base:
-
-* **Pasta db**
-  Essa pasta contem um único arquivo: `db.json`. Esse arquivo serve de banco de dados simulado e nele você deve colocar as estruturas de dados que o seu projeto manipula.
-  * **OBS**: Já incluímos a estrutura de usuários como exemplo e para que você possa utlizar no seu projeto. Se precisar, faça os ajustes necessários para seu projeto.
-* **Pasta public**
-  Nesta pasta você deve colocar todos os arquivos do seu site (front end). Aqui vão os arquivos HTML, CSS, JavaScript, imagens, vídeos e tudo o mais que precisar para a interface do usuário.
-* **Arquivo README.md**
-  Este arquivo em que são colocadas as informações de quem está desenvolvendo esse projeto e os registros solicitados no enunciado da tarefa.
-* **Arquivo .gitignore**
-  Configuração do que deve ser ignorado pelo git evitando que seja enviado para o servidor no GitHub.
-* **Arquivo package.json**
-  Considerado o manifesto do projeto ou arquivo de configuração. Nesle são incluídas as informações básicas sobre o projeto (descrição, versão, palavras-chave, licença, copyright), a lista de pacotes dos quais o projeto depende tanto para desenvolvimento quanto execução, uma lista de  do projeto, scripts entre outras opções.
-  * **OBS**: Esse arquivo é criado assim que o projeto é iniciado por meio do comando `npm init`.
-  * **OBS2**: Esse arquivo já traz a informação de necessidade do JSONServer.
-* **Pasta node_modules**
-  Local onde ficam os pacotes dos quais o projeto depende. Evite enviar essa pasta para o repositório remoto. Essa pasta é reconstruída toda vez que se executa o comando `npm install`.
-
-**Ambiente de Desenvolvimento (IMPORTANTE)**
-
-> A partir de agora, **NÃO utilizamos mais o LiveServer/FiveServer** durante o processo de desenvolvimento. O próprio JSONServer faz o papel de servidor.
-
-Para iniciar o JSONServer e acessar os arquivos do seu site, siga os seguintes passos:
-
-1. Abra a pasta do projeto dentro da sua IDE (por exemplo, Visual Studio Code)
-2. Abra uma janela de teminal e certifique-se que a pasta do terminal é a pasta do projeto
-3. Execute o comando `npm install`
-   Isso vai reconstruir a pasta node_modules e instalar todos os pacotes necessários para o nosso ambiente de desenvolvimento (Ex: JSONServer).
-4. Execute o comando `npm start`
-   Isso vai executar o JSONServer e permitir que você consiga acessar o seu site no navegador.
-5. Para testar o projeto:
-   1. **Site Front End**: abra um navegador e acesse o seu site pela seguinte URL: 
-      [http://localhost:3000]()
-   2. **Site Back End**: abra o navegador e acesse as informações da estrutura de usuários por meio da API REST do JSONServer a partir da seguinte URL: 
-      [http://localhost:3000/usuarios](http://localhost:3000/usuarios)
-
-Ao criar suas estruturas de dados no arquivo db.json, você poderá obter estes dados através do endereço: http://localhost:3000/SUA_ESTRUTURA, tal qual como foi feito com a estrutura de usuários. **IMPORTANTE**: Ao editar o arquivo db.json, é necessário parar e reiniciar o JSONServer.
-
-**IMPORTANTE:** Assim como informado anteriormente, capriche na etapa pois você vai precisar dessa parte para as próximas semanas. 
-
-**IMPORTANTE:** Você deve trabalhar:
-
-* na pasta **`public`,** para os arquivos de front end, mantendo os arquivos **`index.html`**, **`detalhes.html`**, **`styles.css`** e **`app.js`** com estes nomes, e
-* na pasta **`db`**, com o arquivo `db.json`.
-
-Deixe todos os demais arquivos e pastas desse repositório inalterados. **PRESTE MUITA ATENÇÃO NISSO.**
+<<  COLOQUE A IMAGEM TELA 2 AQUI >>
