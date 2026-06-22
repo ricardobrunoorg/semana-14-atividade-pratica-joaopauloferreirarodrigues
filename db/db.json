@@ -408,7 +408,24 @@
           "imagem": "assets/img/ex-10-3.jpg"
         }
       ]
-    }
+    },
+   {
+     "id": 11,
+     "nome": "Treino de Panturrilha",
+     "categoria": "Membros Inferiores",
+     "descricaoCurta": "Volume para panturrilhas teimosas.",
+     "descricaoCompleta": "Treino focado em gastrocnêmio e sóleo com alto volume.",
+     "nivel": "Iniciante",
+     "duracao": "20min",
+     "visualizacoes": "15.000",
+     "calorias": "120 kcal",
+     "series": "4x20",
+     "destaque": false,
+     "data": "2025-03-15",
+     "imagem": "assets/img/treino-perna.jpg",
+     "tags": ["panturrilha", "isolamento"],
+     "exercicios": []
+   }
   ],
   "categorias": [
     {

@@ -10,15 +10,17 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: João Paulo Ferreira Rodrigues
+- Matricula: 908448
+- Proposta de projeto escolhida:Getting Freak
+- Breve descrição sobre seu projeto:  O site é voltado para compartilhar treinos, dietas e dicas de saúde, além de contar com um blog pessoal para dividir experiências e atualizações do dia a dia.
+
 
 **Print da tela com a implementação**
 
 << Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+Foi adicionada uma página de estatísticas que consome a API do JSON Server e apresenta os dados em quatro gráficos dinâmicos com a biblioteca Chart.js: pizza de treinos por categoria muscular, rosca por nível de dificuldade, barras verticais de duração total por categoria e barras horizontais com o ranking de visualizações. Um resumo numérico no topo. Como tudo parte da API, alterações feitas via CRUD na etapa anterior são refletidas automaticamente nos gráficos.
 
 <<  COLOQUE A IMAGEM TELA 1 AQUI >>
-
+![alt text](print1.jpg)
 <<  COLOQUE A IMAGEM TELA 2 AQUI >>
